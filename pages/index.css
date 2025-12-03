@@ -25,7 +25,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
 .nav__logo {
@@ -55,22 +54,19 @@
 .header__title {
   max-width: 709px;
   margin-left: 80px;
-  position: absolute;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
-  left: 0;
-  top: 183px;
+  margin-top: 183px;
 }
 
-.header__title_accent {
+.header__title-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
-  left: 0;
   display: block;
 }
 
@@ -81,7 +77,6 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  position: absolute;
 }
 
 .header__image {
@@ -97,26 +92,20 @@
 .header__footer {
   margin-top: auto;
   color: #838383;
-  position: relative;
+}
+
+.header__footer-schedule {
   margin-left: 80px;
   margin-bottom: 40px;
 }
 
-.header__footer_schedule {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-}
-
-.header__footer_address {
+.header__footer-address {
   margin-right: 80px;
   margin-bottom: 40px;
+  position: absolute;
   bottom: 0;
   right: 0;
-  position: absolute;
 }
-
-/* .content {} */
 
 .recipes {
   background-color: #0a2759;
@@ -154,21 +143,20 @@
   font-size: 20px;
   line-height: 30px;
   display: flex;
-  position: relative;
   gap: 40px;
-  max-height: 480px;
-  min-width: 273px;
+  height: 480px;
+  width: 273px;
+  justify-content: center;
 }
 
 .recipes__video-item {
-  position: absolute;
   display: flex;
+  flex-direction: column;
 }
 
 .recipes__video-caption {
   margin-top: 24px;
-  position: absolute;
-  bottom: auto;
+  justify-content: space-between;
 }
 
 /* .reservation {}
