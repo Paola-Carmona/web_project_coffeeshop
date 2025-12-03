@@ -92,14 +92,15 @@
 .header__footer {
   margin-top: auto;
   color: #838383;
-}
-
-.header__footer-schedule {
   margin-left: 80px;
   margin-bottom: 40px;
 }
 
-.header__footer-address {
+.header__paragraph {
+  margin: auto;
+}
+
+.header__paragraph-address {
   margin-right: 80px;
   margin-bottom: 40px;
   position: absolute;
@@ -152,6 +153,10 @@
 .recipes__video-item {
   display: flex;
   flex-direction: column;
+}
+
+.recipes__iframe {
+  justify-content: space-between;
 }
 
 .recipes__video-caption {
