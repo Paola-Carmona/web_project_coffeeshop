@@ -31,11 +31,13 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  text-align: end;
 }
 
 .footer__list {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
+  text-align: end;
 }
 
 .footer__list-item {
@@ -51,18 +53,17 @@
 }
 
 .footer__social-link {
+  list-style-type: none;
   text-decoration: none;
+  color: #fff;
 }
 
 .footer__social-link:hover {
   color: #ccc;
 }
 
-.footer__social-link:visited {
-  color: #fff;
-}
-
 .footer__social-icon {
+  padding-right: 10px;
   color: #fff;
   height: 16px;
   width: 16px;
